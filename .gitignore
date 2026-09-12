@@ -1,0 +1,52 @@
+# Hệ điều hành (Môi trường máy tính của lập trình viên)
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.tmp
+
+# Các trình soạn thảo mã nguồn & IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Thư mục chứa thư viện phụ thuộc (Không cần commit lên Git)
+node_modules/
+bower_components/
+vendor/
+packages/
+Mau/
+
+# File cấu hình môi trường bảo mật (Chứa mật khẩu, API key...)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# Thư mục build và sản phẩm đầu ra (Sẽ tự sinh ra khi chạy phần mềm)
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.war
+*.ear
+
+# Logs và tệp bộ nhớ đệm
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.cache/
